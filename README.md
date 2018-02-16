@@ -1,5 +1,7 @@
 # docker-testcafe-node
 
+NOTE: Use for testing only! Root user is being used.
+
 https://github.com/theogravity/docker-testcafe-node
 
 https://hub.docker.com/r/personalife/docker-testcafe-node
