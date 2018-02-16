@@ -1,6 +1,11 @@
 # docker-testcafe-node
 
-NOTE: Use for testing only! Root user is being used.
+NOTE: Use for testing only! Root user is being used. Currently using it for running
+end to end tests in CircleCI.
+
+To implement, your script should run the following in the container:
+
+`/opt/testcafe/bin/testcafe-with-v8-flag-filter.js 'chromium:headless --no-sandbox' <test directory>`
 
 https://github.com/theogravity/docker-testcafe-node
 
