@@ -1,4 +1,5 @@
 FROM docker:17.12.0-ce
+FROM zenika/alpine-chrome
 FROM testcafe/testcafe
 
 ADD py_requirements.txt /

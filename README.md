@@ -8,6 +8,7 @@ https://hub.docker.com/r/personalife/docker-testcafe-node
 
 - Docker-in-docker
 - Alpine linux
+- Alpine chrome
 - curl
 - python + pip
 - awscli
